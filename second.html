@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second</title>
+</head>
+<body>
+   
+    <img id="ogimage" src="jordan.jpg" alt="Original Image" width="200">
+
+   
+    <button onclick="changeImage()"><br>MJ GOAT </button>
+    <button onclick="revertImage()"><br>LEBRON WORSTPLAYER</button>
+
+    <script>
+        
+        function changeImage() {
+            document.getElementById("ogimage").src = "jordan.jpg";
+        }
+
+        
+        function revertImage() {
+            document.getElementById("ogimage").src = "download.jpg";
+        }
+    </script>
+</body>
+</html>
